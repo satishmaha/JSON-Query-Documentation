@@ -3,7 +3,7 @@ JSON Query Documentation
 
 Querying with JSON Query is super simple
 
-Follow along using the sample JSON here: http://bit.ly/1OrWKnO
+Follow along using the sample JSON here: [http://bit.ly/1OrWKnO ](http://bit.ly/1OrWKnO)
 
 Query any value by key
 -----------
@@ -12,7 +12,6 @@ Query any value by key
 ```
 offset 
 ```
-
 **Results**
 ```
 -8
@@ -25,7 +24,6 @@ Traverse object trees using the dot operator
 ```
 hourly.icon
 ```
-
 **Results**
 ```
 rain
@@ -38,7 +36,6 @@ Query deeper structures
 ```
 hourly.data.ozone
 ```
-
 **Results**
 ```
 318.97, 318.02
@@ -51,7 +48,6 @@ Access arrays with indices in square brackets
 ```
 data[1]
 ```
-
 **Results**
 ```
 {
@@ -80,7 +76,6 @@ Mix and match arrays with dot operators
 ```
 hourly.data[1].ozone
 ```
-
 **Results**
 ```
 318.02
@@ -93,7 +88,6 @@ Parent elements are not always required
 ```
 data[1].ozone
 ```
-
 **Results**
 ```
 318.02
